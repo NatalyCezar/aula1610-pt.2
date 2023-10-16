@@ -1,3 +1,8 @@
+print('Para formar um Triangulo: ')
+ladoA = int(input('Digite o tamanho do lado A: '))
+ladoB = int(input('Digite o tamanho do lado B: '))
+ladoC = int(input('Digite o tamanho do lado C: '))
+
 def triangulo(a, b, c):
   if a + b > c and a + c > b and b + c > a:
     return True
